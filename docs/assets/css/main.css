@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+/* Basic */
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+.inner {
+	margin: 0 auto;
+	max-width: 65em;
+}
+
+/* Type */
+
+body {
+	color: #767d85;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	line-height: 1.65;
+	opacity: 1;
+	transition: 5s opacity;
+}
+
+body.fade {
+	opacity: 0;
+	transition: none;
+}
+
+
+p {
+	margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #727a82;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.3;
+}
+
+/* Section/Article */
+
+section.special {
+	text-align: center;
+}
+
+header p {
+	color: #bbb;
+	position: relative;
+	margin: 0 0 1.5em 0;
+}
+
+header h1 + p {
+	font-size: 1.25em;
+	margin-top: -1em;
+}
+
+
+/* Icon */
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+/* List */
+
+ul.actions li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+	vertical-align: middle;
+}
+
+/* Wrapper */
+
+.wrapper {
+	padding: 6em 0 4em 0;
+}
+
+
+.wrapper.style1 {
+	background: #f6755e;
+	color: #fcdcd6;
+}
+
+.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
+		color: #fff;
+	}
+
+
+/* Banner */
+
+#banner {
+	padding: 14em 0 12em 0;
+	background-image: url(../../images/banner.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+#banner h1 {
+	font-size: 3em;
+	color: #25a2c3;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+
+
+/* Footer */
+
+#footer {
+	padding: 6em 0 4em 0;
+	background: #25a2c3;
+	text-align: center;
+	color: #c8e7f0;
+}
+
+#footer h2 {
+	color: #fff;
+}
+
+#footer .icon {
+	color: #f6755e;
+}
+
+#footer a {
+	color: #c8e7f0;
+	text-decoration: none;
+}
+
+#footer ul li {
+	padding: 0 2em;
+}
+
+#footer .copyright {
+	display: inline-block;
+	color: #a7d9e7;
+	font-size: 0.75em;
+	margin: 0 0 2em 0;
+	padding: 0;
+	text-align: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	padding: 2em 10em;
+}
